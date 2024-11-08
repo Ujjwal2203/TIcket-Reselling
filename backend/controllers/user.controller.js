@@ -22,7 +22,6 @@ const generateRefreshAndAccessTokens = async(userId) =>{
 
 
 const registeredUser = asyncHandler( async(req,res)=>{
-
   const {userName, email, fullName, password , phoneNumber } = req.body
 
 
